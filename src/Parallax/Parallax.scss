@@ -1,0 +1,60 @@
+.Parallax {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+
+    .parallax-layer {
+        position: fixed;
+        width: 100%;
+        height: 1000px;
+        background-size: auto 1038px;
+        background-position: bottom center;
+        z-index: -1;
+
+        //GPU
+        backface-visibility: hidden;
+        transform-style: preserve-3d;
+        perspective: 1000px;
+    }
+
+    #layer-0 {
+        background-image: url('./assets/parallax0@2x.png');
+        background-color: #ffaf1b;
+    }
+
+    #layer-1 {
+        background-image: url('./assets/parallax1@2x.png');
+    }
+
+    #layer-2 {
+        background-image: url('./assets/parallax2@2x.png');
+    }
+
+    #layer-3 {
+        background-image: url('./assets/parallax3@2x.png');
+    }
+
+    #layer-4 {
+        background-image: url('./assets/parallax4@2x.png');
+    }
+
+    #layer-5 {
+        background-image: url('./assets/parallax5@2x.png');
+    }
+
+    #layer-6 {
+        background-image: url('./assets/parallax6@2x.png');
+    }
+
+    #layer-7 {
+        background-image: url('./assets/parallax7@2x.png');
+    }
+
+    #layer-8 {
+        background-image: url('./assets/parallax8@2x.png');
+    }
+
+}
